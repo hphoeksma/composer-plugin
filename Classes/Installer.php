@@ -33,6 +33,7 @@ class Installer extends LibraryInstaller implements InstallerInterface
         'build' => 'Build/{flowPackageName}/',
         'package' => 'Packages/Application/{flowPackageName}/',
         'package-collection' => 'Packages/{flowPackageName}/',
+        'theme' => 'Packages/Themes/{flowPackageName}/',
         '*' => 'Packages/{camelCasedType}/{flowPackageName}/'
     );
 
